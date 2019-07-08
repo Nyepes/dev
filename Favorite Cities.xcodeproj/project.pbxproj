@@ -15,6 +15,7 @@
 		37C46BAA22D397600045C197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C46BA822D397600045C197 /* LaunchScreen.storyboard */; };
 		37C46BB522D397600045C197 /* Favorite_CitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C46BB422D397600045C197 /* Favorite_CitiesTests.swift */; };
 		37C46BC022D397600045C197 /* Favorite_CitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C46BBF22D397600045C197 /* Favorite_CitiesUITests.swift */; };
+		37C46BCE22D39B030045C197 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C46BCD22D39B030045C197 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		37C46BBB22D397600045C197 /* Favorite CitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite CitiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C46BBF22D397600045C197 /* Favorite_CitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_CitiesUITests.swift; sourceTree = "<group>"; };
 		37C46BC122D397600045C197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C46BCD22D39B030045C197 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				37C46B9D22D397600045C197 /* AppDelegate.swift */,
 				37C46B9F22D397600045C197 /* MasterViewController.swift */,
 				37C46BA122D397600045C197 /* DetailViewController.swift */,
+				37C46BCD22D39B030045C197 /* City.swift */,
 				37C46BA322D397600045C197 /* Main.storyboard */,
 				37C46BA622D397600045C197 /* Assets.xcassets */,
 				37C46BA822D397600045C197 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				37C46BA222D397600045C197 /* DetailViewController.swift in Sources */,
 				37C46BA022D397600045C197 /* MasterViewController.swift in Sources */,
+				37C46BCE22D39B030045C197 /* City.swift in Sources */,
 				37C46B9E22D397600045C197 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
