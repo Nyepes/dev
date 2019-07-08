@@ -26,8 +26,6 @@ class DetailViewController: UIViewController {
     }
 
     func configureView () {
-        
-        //Update the user interface for the detail item
         if let city = self.detailItem {
             if cityTextField != nil {
                 cityTextField.text = city.name
